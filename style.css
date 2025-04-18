@@ -1,85 +1,86 @@
+
 body {
-    background-color: #fafafa;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  .container {
-    background: white;
-    border: 1px solid #dbdbdb;
-    padding: 40px;
-    width: 350px;
-    text-align: center;
-  }
-  .container img {
-    width: 175px;
-    margin-bottom: 20px;
-  }
-  input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    background: #fafafa;
-  }
-  button {
-    width: 100%;
-    padding: 10px;
-    background-color: #0095f6;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  .divider {
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .divider::before, .divider::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #dbdbdb;
-  }
-  .divider span {
-    margin: 0 10px;
-    color: #8e8e8e;
-    font-weight: bold;
-  }
-  .facebook-login {
-    color: #385185;
-    text-decoration: none;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  .forgot {
-    color: #00376b;
-    font-size: 12px;
-  }
-  .signup-box {
-    margin-top: 10px;
-    padding: 20px;
-    border: 1px solid #dbdbdb;
-    background: white;
-    width: 350px;
-    text-align: center;
-  }
-  .store-buttons {
-    margin-top: 20px;
-  }
-  .store-buttons img {
-    height: 40px;
-    margin: 5px;
-  }
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  width: 350px;
+  text-align: center;
+}
+.container img {
+  width: 175px;
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: #fafafa;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.divider {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divider::before, .divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #dbdbdb;
+}
+.divider span {
+  margin: 0 10px;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+.facebook-login {
+  color: #385185;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.forgot {
+  color: #00376b;
+  font-size: 12px;
+}
+.signup-box {
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  background: white;
+  width: 350px;
+  text-align: center;
+}
+.store-buttons {
+  margin-top: 20px;
+}
+.store-buttons img {
+  height: 40px;
+  margin: 5px;
+}
